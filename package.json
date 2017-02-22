@@ -5,8 +5,8 @@
   "description": "Canvas master",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
-	"build": "electron-packager . --prune --platform=win32 --arch=x64 --out=./dist"
+    "start": "electron main.js",
+    "build": "electron-packager . --prune --platform=win32 --arch=x64 --out=./dist"
   },
   "babel": {
     "presets": [
@@ -24,7 +24,8 @@
     "classnames": "^2.2.3",
     "electron-prebuilt": "^0.36.0",
     "electron-reload": "^0.2.0",
-    "jquery": "^2.2.3"
+    "jquery": "^2.2.3",
+    "mongodb": "^2.2.24"
   },
   "devDependencies": {
     "electron-packager": "^8.5.2",
